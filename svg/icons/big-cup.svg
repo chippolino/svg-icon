@@ -1,0 +1,7 @@
+  <svg id="bigCup" viewBox="0 0 326 326" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M97.8 48.9H32.6V97.8C32.6 141.029 71.0652 176.398 119.681 179.13M206.319 179.13C254.935 176.398 293.4 141.029 293.4 97.8V48.9H228.2" stroke="#D6D6D6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 15"/>
+    <path d="M130.4 211.9V186.877H195.6V211.9C195.6 229.905 210.196 244.5 228.2 244.5H244.5V293.4H81.5V244.5H97.8C115.804 244.5 130.4 229.905 130.4 211.9Z" fill="#F7F7F7"/>
+    <path d="M97.8 32.6H228.2V130.4C228.2 166.409 199.009 195.6 163 195.6C126.991 195.6 97.8 166.409 97.8 130.4V32.6Z" fill="#EBEBEB" stroke="#D6D6D6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 15"/>
+    <path d="M130.4 186.877V211.9C130.4 229.905 115.804 244.5 97.8 244.5H81.5V293.4H244.5V244.5H228.2C210.196 244.5 195.6 229.905 195.6 211.9V186.877" stroke="#D6D6D6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 15"/>
+  </svg>
+  

@@ -1,0 +1,38 @@
+{
+  "name": "react-svg-icon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "sprite": "svgsprite --src assets/icons --dest components/sprite",
+    "test": "tsx ./svg/build.ts --log=verbose",
+    "run:svgo": "svgo -f ./svg/icons -o ./src/optimize",
+    "build:svg": "svgo -f ./svg/icons -o ./svg/optimize && tsx ./svg/build.ts --log=verbose"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "node-html-parser": "^6.1.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svgo": "^3.0.3",
+    "tsx": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "react-svg-sprite-generator": "^1.0.34",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
